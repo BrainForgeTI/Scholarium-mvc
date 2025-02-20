@@ -78,4 +78,40 @@ restrições técnicas:<br/>
 * Sustentabilidade
     * Caso haja crescimento acelerado, mais servidores serão necessários
     * Caso não haja um modelo de negócio sustentável, será difícil manter o sistema
+ 
+## 8. Tomada de Decisões
+
+### 8.1 Selação de tecnologias e frameworks
+* Backend
+    * Nestjs
+    * Typescript
+    * Typeorm / mongoose
+    * JWT Auth
+    ***
+Alta escalabilidade e baixa latência de resposta com Nodejs e Nestjs. Tecnologias validadas pelo mercado e com comunidade ativa. Typeorm e mongoose são ORM'S amplamente utilizadas e com histórico de suporte constante. Autenticação com JWT torna a utilização segura e garante a autenticidade do usuário conectado.
+* Frontend
+    * Reactjs
+    * Typescript
+    * Tailwindcss
+    * React router dom
+    ***
+Reacjs é uma tecnologia extramente forte no mercado, criada pela Meta. Amplamente utilizada na web por sistemas escaláveis, componentizáveis. Tailwindcss traz agilidade para a estilização da interface
+
+### 8.2 Definição de estrutura de dados
+A definir
+
+### 8.3 Escolha de algoritmos
+A definir
+
+### 8.4 Adoção de padrões de projeto
+A definir
+
+### 8.5 Definição de componentes do sistema
+A definir
+
+### 8.6 Modelos de decisão utilizados
+* Prototipagem
+
+***
+Prototipação utilizada para extrair requisitos e validar interface juntamente ao usuário.
 
