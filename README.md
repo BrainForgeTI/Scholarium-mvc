@@ -35,3 +35,47 @@ requisitos não funcionais:
 restrições técnicas:<br/>
 **Plataformas**: a princípio, o Scholarium será desenvolvido apenas na forma de um aplicativo web por conta da familiaridade dos desenvolvedores com essa plataforma e afim de acelerar o desenvolvimento. Entretanto, há o interesse em transformar a ferramenta em aplicações Android e iOS no futuro. <br/>
 **linguagem de programação e framework:** para atender o requisito de modularidade do sistema, é necessário o uso de um framework que estimule a modularidade sem abrir mão de também incentivar as boas práticas de desenvolvimento, auxiliando na construção de um backend robusto e responsivo. Além dessas restrições, há a condição de o framework precisar ser escrito em NodeJs, tanto por ser a linguagem de domínio dos desenvolvedores encarregados quanto por permitir que o aplicativo inteiro seja construído usando a mesma ferramenta: javascript. Com isso, foi decidido que o servidor será cosntruído em NodeJs, com o auxílio do framework NestJs; enquanto o front-end será construído com o auxílio do framework React. Dessa forma teremos uma aplicação construída em cima de uma linguagem apenas, o que permitirá uma maior intercomunicação dos desenvolvedores.
+
+## 7. Riscos do projeto
+
+### 7.1 Riscos técnicos
+
+* Desempenho e escalabilidade
+    * Sistema pode apresentar lentidão conforme o número de usuários
+    * Desafios quanto a sincronização de dados caso haja funcionalidade de uso offline e online
+* Segurança
+    * Vazamento de dados sensíveis dos usuários
+    * Falhas dos sitemas de autenticação, como o login
+* Manutenção
+    * Inconsistencia em diferentes tipos de navegadores
+    * Bibliotecas externas que podem se tornar obsoletas, caso sejam utilizadas
+* Confiabilidade
+    * Servidor pode ficar indisponível
+
+### 7.2 Riscos Operacionais
+
+* Usabilidade
+    * Design pouco intuitivo pode afastar usuários
+    * Falta de personalização, podendo reduzir o engajamento dos usuários
+* Suporte
+    * Equipe pequena pode dificultar atendimento e correção de bugs
+    * Atualizações mal planejadas podem atrapalhar usuários
+* Regulamenação
+    * Conformidade com a LGDP
+    * Politicas locais  em cada região de atuação
+* Atrair usuários
+    * Se o sistema não d=se diferenciar dos concorrentes, não terá usuários
+
+### 7.3 Riscos de Negócio
+* Monetização
+    * Caso haja gratuidade de uso, pode ser difícil monetizar
+    * Se for pago, usuários podem não utilizar
+* Concorrentes
+    * Existem aplicativos parecidos? caso sim, pode ser difícil diferenciar
+* Marketing
+    * Alto custo para atrair usuários
+    * Estratégia de marketing pode ser falha
+* Sustentabilidade
+    * Caso haja crescimento acelerado, mais servidores serão necessários
+    * Caso não haja um modelo de negócio sustentável, será difícil manter o sistema
+
