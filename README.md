@@ -36,6 +36,32 @@ restrições técnicas:<br/>
 **Plataformas**: a princípio, o Scholarium será desenvolvido apenas na forma de um aplicativo web por conta da familiaridade dos desenvolvedores com essa plataforma e afim de acelerar o desenvolvimento. Entretanto, há o interesse em transformar a ferramenta em aplicações Android e iOS no futuro. <br/>
 **linguagem de programação e framework:** para atender o requisito de modularidade do sistema, é necessário o uso de um framework que estimule a modularidade sem abrir mão de também incentivar as boas práticas de desenvolvimento, auxiliando na construção de um backend robusto e responsivo. Além dessas restrições, há a condição de o framework precisar ser escrito em NodeJs, tanto por ser a linguagem de domínio dos desenvolvedores encarregados quanto por permitir que o aplicativo inteiro seja construído usando a mesma ferramenta: javascript. Com isso, foi decidido que o servidor será cosntruído em NodeJs, com o auxílio do framework NestJs; enquanto o front-end será construído com o auxílio do framework React. Dessa forma teremos uma aplicação construída em cima de uma linguagem apenas, o que permitirá uma maior intercomunicação dos desenvolvedores.
 
+## 05 - Necessidades dos Stakeholders
+**Clientes e usuarios finais**: Estudantes em geral, abrangendo desde o Ensino Médio até o Ensino Superior, incluindo tanto cursos de graduação quanto pós-graduação, além de pessoas que buscam preparação para concursos e aprendizado prático em diversas áreas, com foco no desenvolvimento de habilidades para o mercado de trabalho e aperfeiçoamento contínuo.  
+
+**PO**: Emerson Tanno  
+**Desenvolvedores Back-End**: Willian Kakihata, Pedro Afonso  
+**Desenvolvedores Front-End**: Kaik Dorvalo, Renan Tonon  
+**Administrador de Banco de Dados (DBA)**: Lucas Niguti  
+
+## 06 - Tendências Tecnológicas
+**Linguagens**  
+Typescript, HTML, CSS, JavaScript, e JSX
+
+**Framework**  
+Back-end (Node/Nestjs): Facilidade de manutenção, open source, comunidade ativa, atualizações frequentes, e documentação completa  
+Front-end (React com Tailwind): Agilidade, utilização de plugin, integração com bibliotecas de estilização, velocidade, maior customização 
+
+**Banco de dados**  
+PostgreSQL: é uma excelente escolha para dados relacionais devido à sua robustez, suporte a transações ACID e extensibilidade  
+MongoDB: é ideal para dados não estruturados, oferecendo flexibilidade e escalabilidade horizontal  
+
+**Gerenciamento de versionamento**  
+GitHub  
+
+**Metodologia**  
+Scrum/Kanban: melhora a eficiência do time, promovendo uma abordagem ágil e colaborativa. O Scrum é ótimo para entregas rápidas e gestão de projetos com prazos definidos, enquanto o Kanban oferece flexibilidade para fluxos contínuos e otimização do processo. Ambos ajudam a aumentar a produtividade e a transparência no desenvolvimento.  
+
 ## 7. Riscos do projeto
 
 ### 7.1 Riscos técnicos
