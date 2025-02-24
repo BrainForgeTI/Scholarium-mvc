@@ -141,3 +141,31 @@ A definir
 ***
 Prototipação utilizada para extrair requisitos e validar interface juntamente ao usuário.
 
+## 9. Estrutura de Pastas
+
+```
+
+src/
+├── auth/
+│   ├── controller/
+│   │   ├── auth.controller.ts
+│   ├── model/
+│   │   ├── auth.model.ts
+│   ├── view/
+│   │   ├── auth.view.ts
+│   ├── auth.module.ts
+│   ├── auth.service.ts
+├── user/
+│   ├── controller/
+│   │   ├── user.controller.ts
+│   ├── model/
+│   │   ├── user.model.ts
+│   ├── view/
+│   │   ├── user.view.ts
+│   ├── user.module.ts
+│   ├── user.service.ts
+├── app.module.ts
+├── main.ts
+
+```
+
