@@ -46,7 +46,7 @@ restrições técnicas:<br/>
 
 ## 06 - Tendências Tecnológicas
 **Linguagens**  
-Typescript, HTML, CSS, JavaScript, e JSX
+TypeScript, HTML, CSS, e JSX
 
 **Framework**  
 Back-end (Node/Nestjs): Facilidade de manutenção, open source, comunidade ativa, atualizações frequentes, e documentação completa  
