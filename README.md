@@ -144,17 +144,7 @@ Prototipação utilizada para extrair requisitos e validar interface juntamente 
 ## 9. Estrutura de Pastas
 
 ```
-
 src/
-├── auth/
-│   ├── controller/
-│   │   ├── auth.controller.ts
-│   ├── model/
-│   │   ├── auth.model.ts
-│   ├── view/
-│   │   ├── auth.view.ts
-│   ├── auth.module.ts
-│   ├── auth.service.ts
 ├── user/
 │   ├── controller/
 │   │   ├── user.controller.ts
@@ -166,6 +156,5 @@ src/
 │   ├── user.service.ts
 ├── app.module.ts
 ├── main.ts
-
 ```
 
