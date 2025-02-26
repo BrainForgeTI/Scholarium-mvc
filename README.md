@@ -124,19 +124,25 @@ Alta escalabilidade e baixa latência de resposta com Nodejs e Nestjs. Tecnologi
 Reacjs é uma tecnologia extramente forte no mercado, criada pela Meta. Amplamente utilizada na web por sistemas escaláveis, componentizáveis. Tailwindcss traz agilidade para a estilização da interface
 
 ### 8.2 Definição de estrutura de dados
-A definir
+* Objeto
+* Vetor
 
 ### 8.3 Escolha de algoritmos
-A definir
+. Algoritmo de soma de xp
+. Algoritmos de ordenação de vetor
 
 ### 8.4 Adoção de padrões de projeto
-A definir
+* Adoção de padrão de código limpo
+* Utilização do padrão MVC
 
 ### 8.5 Definição de componentes do sistema
-A definir
+* Model
+* View
+* Controller
 
 ### 8.6 Modelos de decisão utilizados
 * Prototipagem
+* MVP
 
 ***
 Prototipação utilizada para extrair requisitos e validar interface juntamente ao usuário.
