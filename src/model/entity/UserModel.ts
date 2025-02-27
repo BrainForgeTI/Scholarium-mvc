@@ -10,6 +10,15 @@ export class User {
     name: string;
 
     @Prop({ required: true })
+    lastName: string;
+
+    @Prop({ required: true })
+    dataNasc: string;
+
+    @Prop({ required: true })
+    gender: string;
+
+    @Prop({ required: true })
     email: string;
 
     @Prop({ required: true })
