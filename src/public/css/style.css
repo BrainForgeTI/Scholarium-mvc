@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #13111A;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", serif;
+    box-sizing: border-box;
+}
+
+
+label {
+    display: flex;
+    margin: 3px;
+}
+
+.containerCentral {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #181620;
+    width: 990px;
+    height: 704px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+
+}
+
+.containerPrimarios {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: url("../images/guerreiro-background.png");
+    background-size: cover;
+
+
+}
+
+.containerSecundarios {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    height: 100%;
+    color: white;
+    background-size: cover;
+}
+
+.box-forms {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+
+    height: 100%;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.campoInputGrande {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+
+
+}
+
+.camposInput {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.inputNomeEsobrenome {
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    color: white;
+    background-color: #24212F;
+    height: 52px;
+    font-family: "Poppins", serif;
+}
+
+.inputNomeEsobrenome::-webkit-calendar-picker-indicator {
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(100deg);
+    cursor: pointer
+}
+
+.fotoLogo {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.termoAdesao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.termoAdesaoCheckBox {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #929292;
+}
+
+span {
+    color: #ADD8E6;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.botaoCadastrar {
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    font-weight: bold;
+    background-color: #FF8400;
+    color: white;
+    height: 56px;
+    width: 300px;
+    padding: 15px;
+    font-family: "Poppins", serif;
+}

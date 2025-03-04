@@ -8,10 +8,17 @@ export class UserModel {
 
     constructor(
         @InjectModel(User.name) private readonly userModel: Model<User>,
-    ) {}
+    ) { }
 
-    public createNewUser(newUser: User) {
-        return this.userModel.create(newUser);
+    public async createNewUser(newUser: User) {
+        const user = await this.userModel.findOne({ email: newUser.email })
+
+        if (user) {
+            console.log(user)
+            throw new Error("Email já existe!")
+        }
+
+        return await this.userModel.create(newUser);
     }
 
     public getAllUsers() {
@@ -25,7 +32,7 @@ export class UserModel {
     public updateUser(id: string, newUser: User) {
         return this.userModel.findByIdAndUpdate(id, newUser, { new: true });
     }
-    
+
     public deleteUserById(id: string) {
         return this.userModel.findByIdAndDelete({ _id: id });
     }
